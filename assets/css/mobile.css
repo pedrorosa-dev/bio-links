@@ -43,3 +43,57 @@
     margin-top: 1rem;
   }
 }
+
+@media (min-width: 431px) and (max-width: 992px) {
+  .main-container {
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  .bloco-container {
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+    margin-right: 9rem;
+  }
+
+  .logo-container {
+    flex-direction: column;
+    margin-left: 9rem;
+  }
+  .logo {
+    width: 22rem;
+    height: 22rem;
+  }
+  .title-logo h1 {
+    font-size: 1.4rem;
+    letter-spacing: 2px;
+    font-weight: bold;
+  }
+  .title-logo p {
+    font-size: 1rem;
+  }
+  .link-container {
+    margin-top: 2rem;
+    width: 100%;
+    margin-left: 14rem;
+  }
+
+  .title-link p {
+    font-size: 1.4rem;
+  }
+  .link-content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .dono {
+    margin-top: 4rem;
+    font-size: 1rem;
+  }
+  .dono a {
+    font-size: 1rem;
+  }
+  .redes-sociais img {
+    width: 5rem;
+    height: 5rem;
+  }
+}
