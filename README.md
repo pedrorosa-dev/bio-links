@@ -6,6 +6,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 This is a minimalist bio links site that allows users to share various important information and links in one place.
 
+
+Access the site here:
+https://bios-link-pedrorosa.netlify.app/
+
 ## Features
 
 - **Minimalist:** Clean and simple design for an uncomplicated user experience.
