@@ -1,0 +1,44 @@
+@media (min-width: 321px) and (max-width: 430px) {
+  .main-container {
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  .bloco-container {
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+    margin-right: 9rem;
+  }
+
+  .logo-container {
+    flex-direction: column;
+    margin-left: 9rem;
+  }
+  .logo {
+    width: 16rem;
+    height: 16rem;
+  }
+  .title-logo h1 {
+    font-size: 1rem;
+    letter-spacing: 2px;
+    font-weight: bold;
+  }
+  .title-logo p {
+    font-size: 0.8rem;
+  }
+  .link-container {
+    margin-top: 2rem;
+    margin-left: 14rem;
+  }
+
+  .title-link p {
+    font-size: 1.1rem;
+  }
+  .link-content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .dono {
+    margin-top: 1rem;
+  }
+}
