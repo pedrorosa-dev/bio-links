@@ -19,7 +19,7 @@
 
 .bloco-container {
   display: flex;
-  gap: 9rem;
+  gap: 18rem;
 }
 
 .logo-container {
@@ -67,7 +67,7 @@
   flex-direction: column;
   gap: 5rem;
   align-items: center;
-  width: 40rem;
+  width: 100%;
   margin-right: 5rem;
 }
 
